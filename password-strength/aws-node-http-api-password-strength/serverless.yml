@@ -1,0 +1,17 @@
+service: aws-node-http-api-password-strength
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+plugins:
+  - serverless-offline
+  
+functions:
+  password:
+    handler: handler.password
+    events:
+      - httpApi:
+          path: password/{password}
+          method: get

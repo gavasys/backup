@@ -1,0 +1,11 @@
+Contraseña para la base de datos curso-sls-rds-mysql
+
+Esta es la única vez que podrá ver esta contraseña. Copie y guarde la contraseña para su referencia; de lo contrario, tendrá que modificar la base de datos para cambiarla.
+Nombre de usuario maestro
+curso_sls
+Contraseña maestra
+secret12
+
+
+notificacion
+gestion
